@@ -1,0 +1,145 @@
+/* CSS Document */
+/*Global Settings*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Strucutral Elements */
+body {
+  background-color: #FFFAFA;
+}
+
+header {
+  background-color: #006400;
+  color: #FFFAFA;
+  text-align: center;
+  margin: 2px 10px 2px 10px;
+  padding: 2px;
+}
+
+nav {
+  background-color: #006400;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 2px 10px 2px 10px;
+  padding: 5px;
+}
+
+nav a:hover {
+  animation: corners 6s infinite;
+}
+
+nav li > a {
+  background-color: #006400;
+  color: #FFFAFA;
+  font-weight: bold;
+  text-align: center;
+  margin: 2px 30px 2px 30px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+footer {
+  background-color: #FFFAFA;
+  color: #FFFAFA;
+  text-align: center;
+  margin: 2px 10px 2px 10px;
+  padding: 200px;
+}
+
+#team {
+  width: 200px;
+  height: 175px;
+  margin: 20px 20px 20px 20px;
+  padding: 15px;
+  float: left;
+  background-image: none;
+}
+
+#trophy {
+  width: 200px;
+  height: 175px;
+  margin: 20px 20px 20px 20px;
+  padding: 15px;
+  float: left;
+  background-image: none;
+}
+
+#nfl {
+  width: 200px;
+  height: 175px;
+  margin: 20px 20px 20px 20px;
+  padding: 15px;
+  float: left;
+  background-image: none;
+}
+
+/* Text Elementst */
+h6 {
+  background-color: #006400;
+  color: white;
+}
+
+h2 {
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-size: 28px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #FFFAFA;
+}
+
+h1 {
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-size: 38px;
+  font-style: oblique;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  text-shadow: 1px 1px 0px #000000;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #006400;
+}
+
+footer a:link {
+  color: #FFFAFA;
+}
+
+footer a:visited {
+  background-color: #007902;
+  color: #FFFAFA;
+}
+
+footer a:hover {
+  animation: corners 6s infinite;
+}
+
+footer a:active {
+  color: #FFFAFA;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+/*# sourceMappingURL=styles.css.map */
